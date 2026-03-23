@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleShooter</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleShooter.Activity1">
+            <summary>
+            Android entry point. Sets up the MonoGame view and starts the game loop.
+            </summary>
+        </member>
+        <member name="T:SimpleShooter.Bullet">
+            <summary>
+            A yellow cube projectile fired by the player.
+            </summary>
+        </member>
+        <member name="T:SimpleShooter.CubeMesh">
+            <summary>
+            Procedurally generates a unit-cube (1x1x1) centered at origin
+            as a flat VertexPositionColor array (36 vertices, 12 triangles).
+            No model files needed — geometry is built in code.
+            </summary>
+        </member>
+        <member name="M:SimpleShooter.CubeMesh.Create(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)">
+            <param name="topColor">Color of the top face.</param>
+            <param name="sideColor">Color of the four side faces.</param>
+            <param name="bottomColor">Color of the bottom face.</param>
+        </member>
+        <member name="T:SimpleShooter.Enemy">
+            <summary>
+            A red cube enemy that walks toward the player.
+            </summary>
+        </member>
+        <member name="T:SimpleShooter.Game1">
+             <summary>
+             Simple 3D first-person shooter for Android.
+            
+             CONTROLS
+               Left half of screen  – Tap anywhere to shoot
+               Right half of screen – Drag to look around
+            
+             GAME RULES
+               Red cube enemies spawn at distance ~15-25 m and walk toward you.
+               Each enemy takes 3 bullet hits to destroy. +10 score per kill.
+               If an enemy touches you, you lose health. Reach 0 HP = Game Over.
+               Spawn rate increases over time — survive as long as possible!
+             </summary>
+        </member>
+    </members>
+</doc>

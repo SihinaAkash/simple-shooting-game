@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MonoGame SpriteFont definition.
+  The font is baked into a texture atlas at build time by the Content Pipeline,
+  so no system font is needed on the target Android device.
+-->
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+    <FontName>Arial</FontName>
+    <Size>18</Size>
+    <Spacing>1</Spacing>
+    <UseKerning>true</UseKerning>
+    <Style>Bold</Style>
+    <CharacterRegions>
+      <!-- Printable ASCII: space (32) through tilde (126) -->
+      <CharacterRegion>
+        <Start>&#32;</Start>
+        <End>&#126;</End>
+      </CharacterRegion>
+    </CharacterRegions>
+  </Asset>
+</XnaContent>

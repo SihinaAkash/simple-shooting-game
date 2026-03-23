@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Library.OpenAL</id>
+    <version>1.24.3.2</version>
+    <title>MonoGame build of OpenAL Library</title>
+    <authors>MonoGame.Library.OpenAL</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Icon.png</icon>
+    <readme>README.md</readme>
+    <description>This package contains binaries for OpenAL library built for usage with MonoGame.</description>
+    <repository type="git" url="https://github.com/MonoGame/MonoGame.Library.OpenAL" commit="466572992834b190c79206072d161114682ffb9b" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

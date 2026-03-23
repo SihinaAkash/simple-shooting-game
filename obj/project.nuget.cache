@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1GxE8i/O5Y0=",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\C#\\SimpleShooter\\SimpleShooter.csproj",
+  "expectedPackageFiles": [
+    "D:\\Programming\\C#\\SimpleShooter\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.25\\microsoft.net.illink.tasks.8.0.25.nupkg.sha512",
+    "D:\\Programming\\C#\\SimpleShooter\\.nuget\\packages\\monogame.framework.android\\3.8.1.303\\monogame.framework.android.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
